@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-top{
+    background: #000000;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-top-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.lang{
+background: none;
+color: white;
+border: none;    
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.2px;
+text-align: left;
+}
+
+
+.play{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.2px;
+text-align: left;
+color: #000000;
+background-color: #F1A900;
+border: none;
+padding: 26px ;
+}
+
+.fa-globe{
+    color: #F1A900;
+}
+
+.nav-bottom{
+    background-color: #363636;
+    padding: 15px 0;
+}
+
+.nav-bottom ul{
+    display: flex;
+    gap: 101px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-bottom ul a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    height: 797px;
+    background-image: url("./img/image\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pc{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.41px;
+text-align: center;
+background-color: #F1A900;
+border: none;
+padding: 25px 65px;
+}
+
+.console{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    border: none;
+    padding: 25px 65px;
+}
+
+.main-btns{
+    display: flex;
+    gap: 64px;
+    padding-top: 349px;
+    padding-left: 420px;
+}
+
+.h1{
+font-family: Inter;
+font-size: 64px;
+font-weight: 700;
+line-height: 77.45px;
+text-align: center;
+color: white;
+background-color: #F1A90054;
+width: 1000px;
+margin-left: 220px;
+}
+
+.end{
+    background-color: #000000;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+}
+
+.img1{
+    margin-left: 60px;
+}
+
+.img2{
+    margin-left: 1000px;
+}
+
+.img3{
+    margin-left: 62px;
+}
+
+.img4{
+    margin-left: 62px;
+}
